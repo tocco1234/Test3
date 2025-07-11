@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/numberInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="شماره تلفن" />
+
+    <Button
+        android:id="@+id/addNumberBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="افزودن شماره" />
+
+    <EditText
+        android:id="@+id/messageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="متن پیامک"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+    <CheckBox
+        android:id="@+id/randomModeCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ارسال پیامک به صورت تصادفی" />
+
+    <Button
+        android:id="@+id/saveMessageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ذخیره پیام" />
+
+</LinearLayout>
